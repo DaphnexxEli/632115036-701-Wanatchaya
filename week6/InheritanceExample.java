@@ -4,20 +4,30 @@ package week6;
 public class InheritanceExample {
     public static void main(String[] args) {
         Artist art = new Artist("Ball", 20 , "male");
-
         art.genre = "hip hop";
         art.introduce();
         art.playMusic();
-        art.genre1 = "engineer";
-        art.job1();
-        art.genre2 = "doctor";
-        art.job2();
-        art.genre3 = "farmer";
-        art.job3();
-        art.genre4 = "teacher";
-        art.job4();
-        art.genre5 = "programmer";
-        art.job5();
+
+        Job1 job1 = new Job1("Idea" , 19 , "Female");
+        job1.introduce();
+        job1.genre1 = "engineer";
+
+        Job2 job2 = new Job2("Ivy" , 19 , "Female");
+        job2.introduce();
+        job2.genre2 = "doctor";
+
+        Job3 job3 = new Job3("Ray" , 18 , "Male");
+        job3.introduce();
+        job3.genre3 = "farmer";
+
+        Job4 job4 = new Job4("Love" , 19 , "Male");
+        job4.introduce();
+        job4.genre4 = "teacher";
+
+        Job5 job5 = new Job5("Prius" , 18 , "Male");
+        job5.introduce();
+        job5.genre5 = "professor";
+        
     }
     
 }
