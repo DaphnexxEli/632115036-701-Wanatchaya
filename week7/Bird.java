@@ -1,7 +1,9 @@
 package week7;
 //632115036 Wanatchaya Kaewwongwan
 public class Bird extends Pet {
-    String genre1;
+    String country;
+    boolean fly;
+    String speak;
     
 
     public Bird (String name ,String species , String color , int age) {
@@ -12,8 +14,16 @@ public class Bird extends Pet {
         
     }
 
-    public void bird() {
-        System.out.println(name +"'s job1 is " + genre1);
+    public void country() {
+        System.out.println("Country of this bird is " + country);
+        
+    }
+    public void speak() {
+        System.out.println(speak);
+        
+    }
+    public void fly() {
+        System.out.println("Can fly: " + fly);
         
     }
 

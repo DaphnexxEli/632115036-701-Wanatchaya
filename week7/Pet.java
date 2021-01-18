@@ -6,6 +6,7 @@ public class Pet {
     String species;
     String color;
     int age;
+	
     
     public Pet(){
 
@@ -19,10 +20,8 @@ public class Pet {
         
     }
     public void introduce() {
-        System.out.println("My dog");
         System.out.println("Name: " + name + " Species: " + species + " Color: " + color + " Age: " + age );
-        System.out.println("My dog is " + name + " run to the jungle");
-        System.out.println("Small bark Box Box!!");
+       
         
          
      }
