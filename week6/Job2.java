@@ -10,7 +10,7 @@ public class Job2 extends Person {
         this.gender = gender;
     }
 
-    public void job1() {
+    public void job2() {
         System.out.println(name +"'s job2 is " + genre2);
         
     }
