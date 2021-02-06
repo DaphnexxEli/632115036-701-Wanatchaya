@@ -17,7 +17,7 @@ public class Student {
     public String toString() {
         String name = firstname.nextLine();
         String surname = lastname.nextLine();
-        return "My name is " + name + surname;
+        return "My name is " + name + " " + surname;
 
     }
 }
