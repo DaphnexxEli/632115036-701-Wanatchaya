@@ -1,4 +1,3 @@
- 
 
 public class StudentData {
     public static void main(String[] args) {
@@ -27,7 +26,7 @@ public class StudentData {
 }
 
 class Stu {
-    private Object name;
+    private String name;
     private Integer age;
     private Double gpa;
 
@@ -37,15 +36,15 @@ class Stu {
         this.gpa = gpa;
     }
 
-    public Object getName(){
+    public String getName(){
         return this.name;
     }
 
-    public Object getAge(){
+    public Integer getAge(){
         return this.age;
     }
 
-    public Object getGPA(){
+    public Double getGPA(){
         return this.gpa;
     }
     
