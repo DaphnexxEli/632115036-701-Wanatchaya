@@ -1,5 +1,5 @@
 //632115036 Wanatchaya Kaewwongwan
-//week11
+// package week11;
 
 class A{
 
@@ -19,7 +19,7 @@ public class InstanceOfDemo {
         Object c = new C();
         //Test the instance of object and class
         System.out.println(a instanceof A);
-        System.out.println(b instanceof B);
+        System.out.println(b instanceof B); //Class B's objects are class A's objects.
         System.out.println(b instanceof A);
         System.out.println(a instanceof B);
         System.out.println(c instanceof C);
